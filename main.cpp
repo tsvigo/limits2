@@ -11,5 +11,9 @@ int main(int argc, char *argv[])
     std::cout << "ULLONG_MAX = " <<ULLONG_MAX<< std::endl;
       std::cout << "LLONG_MAX = "<< LLONG_MAX<<std::endl;
        std::cout << "LLONG_MIN = "<< LLONG_MIN<<std::endl;
+      std::cout << "INT_MAX = " <<INT_MAX<< std::endl;
+    //   std::cout << "INT_MIN = " <<INT_MIN<< std::end;
+      int d=-2147483649;
+         std::cout << "INT_MIN = -2147483649"<< std::end;
     return a.exec();
 }
